@@ -11,7 +11,6 @@
 
 .header {
   position: sticky;
-
   min-width: 1100px;
   max-width: 1600px;
   display: flex;
@@ -39,9 +38,8 @@
   position: absolute;
   top: 30px;
   left: 64px;
-
+  z-index: 3;
 }
-
 
 .header__title {
   padding-left: 64px;
@@ -84,4 +82,46 @@
   top: 64px;
   right: 0;
   z-index: -2;
+}
+
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+  display: flex;
+  margin: 0 auto 0 ;
+  align-items: space-between;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.description__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.description__main-text {
+  width: 80%;
+  min-width: 784px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.description__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.description__span_accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
