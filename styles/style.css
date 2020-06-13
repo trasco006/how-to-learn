@@ -35,11 +35,11 @@ h1 {
 .logo {
   width: 183px;
   height: 32px;
-  background-image: url(/images/logo_place_header.svg);
+  background-image: url(./images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 5;
+  z-index: 1;
 }
 
 .header__title {
