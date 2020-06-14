@@ -43,6 +43,10 @@
 
 }
 
+.header__image {
+  width: 765px;
+  height: 608px;
+}
 .header__title_no-margin {
   margin: 0;
   padding: 0;
@@ -280,3 +284,79 @@
   height: 877px;
   z-index: -1;
 }
+
+/*Блок Footer*/
+
+.footer {
+  flex-basis: 711px;
+  background-color: #1f1f1f;
+  min-height: 350px;
+  position: relative;
+}
+
+.footer__columns {
+  padding: 60px 0 40px;
+  display: flex;
+  height: 250px;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer__column_content_copyright {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  display: block;
+  height: 35px;
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  color: #f2f2f2;
+  line-height: 25px;
+  font-size: 18px;
+  padding: 18px 0;
+  margin: 0;
+}
+
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-heading {
+  margin: 0;
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
+  width: 16px;
+  display: inline;
+}
+
+.footer__column-links {
+  display: inline;
+  line-height: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: normal;
+  color: #f2f2f2;
+}
+
