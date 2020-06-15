@@ -375,3 +375,6 @@
   color: #f2f2f2;
 }
 
+:link:hover {
+  outline: dashed 1px;
+}
