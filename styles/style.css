@@ -118,7 +118,9 @@
   margin-block-end: 30px;
 }
 
-.description :last-child {margin-block-end: 0}
+.description :last-child {
+  margin-block-end: 0;
+}
 
 .two-columns__span-accent {
   line-height: 34px;
