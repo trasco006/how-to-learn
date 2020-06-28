@@ -20,9 +20,11 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/khan/khan.css);
+@import url(../blocks/resourses/resourses.css);
 
-
-
+a:hover {
+  outline: 2px dashed #2f80ed ;
+}
 
 
 
