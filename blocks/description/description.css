@@ -1,0 +1,12 @@
+.description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  align-items: space-between;
+}
+
+.description :last-child {
+  margin-block-end: 0;
+}

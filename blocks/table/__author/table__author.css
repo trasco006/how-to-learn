@@ -1,8 +1,7 @@
-.two-columns__brief {
-  width: 175px;
+.table__author {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: #2f80ed;
   margin: 0;
+  padding-top: 20px;
 }
