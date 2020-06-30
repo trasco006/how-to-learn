@@ -1,7 +1,7 @@
 .footer__columns {
   padding: 60px 0 40px;
   display: flex;
-  height: 250px;
+  min-height: 250px;
   justify-content: space-between;
   flex-direction: row;
   width: 90%;

@@ -1,4 +1,9 @@
 .khan__book-containter {
-  display: flex;
+  display: grid;
+  grid-template-columns: 620px auto;
   margin: 0;
+  width: 100%;
+  grid-column-gap: 48px;
+  height: 608px;
+  overflow: hidden;
 }
